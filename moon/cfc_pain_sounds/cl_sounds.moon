@@ -1,11 +1,18 @@
 combineSounds = {
+    "npc/combine_soldier/pain1.wav"
+    "npc/combine_soldier/pain2.wav"
+    "npc/combine_soldier/pain3.wav"
+    "npc/combine_soldier/die3.wav"
+    "npc/combine_soldier/die2.wav"
+    "npc/combine_soldier/die1.wav"
+}
+
+metroSounds = {
     "npc/metropolice/pain1.wav"
     "npc/metropolice/pain2.wav"
     "npc/metropolice/pain3.wav"
     "npc/metropolice/pain4.wav"
-    "npc/combine_soldier/pain1.wav"
-    "npc/combine_soldier/pain2.wav"
-    "npc/combine_soldier/pain3.wav"
+    "npc/metropolice/knockout2.wav"
 }
 
 zombieSounds = {
@@ -19,6 +26,11 @@ zombieSounds = {
     "npc/zombie/zombie_pain4.wav"
     "npc/zombie/zombie_pain5.wav"
     "npc/zombie/zombie_pain6.wav"
+    "npc/zombie/zombie_voice_idle6.wav"
+    "npc/zombie/zombie_voice_idle5.wav"
+    "npc/zombie/zombie_die3.wav"
+    "npc/zombie/zombie_die1.wav"
+
 }
 
 
@@ -33,6 +45,7 @@ zombieSounds = {
         "vo/npc/male01/pain07.wav",
         "vo/npc/male01/pain08.wav",
         "vo/npc/male01/pain09.wav",
+        "vo/npc/male01/hitingut01.wav",
     }
 
     cit_female: {
@@ -52,6 +65,8 @@ zombieSounds = {
         "vo/npc/Alyx/hurt05.wav"
         "vo/npc/Alyx/hurt06.wav"
         "vo/npc/Alyx/hurt08.wav"
+        "vo/npc/alyx/uggh01.wav"
+        "vo/npc/alyx/uggh02.wav"
     }
 
     "models/player/monk.mdl": {
@@ -92,8 +107,8 @@ zombieSounds = {
     }
 
     --Combine
-    "models/player/police.mdl": combineSounds
-    "models/player/police_fem.mdl": combineSounds
+    "models/player/police.mdl": metroSounds
+    "models/player/police_fem.mdl": metroSounds
     "models/player/combine_soldier.mdl": combineSounds
     "models/player/combine_soldier_prisonguard.mdl": combineSounds
     "models/player/combine_super_soldier.mdl": combineSounds
